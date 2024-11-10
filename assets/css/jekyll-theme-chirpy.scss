@@ -18,7 +18,7 @@ $toc-highlight: #18dede !important;
 }
 
 .justify-content-between {
-  display: none;
+  display: none !important;
 }
 
 .highlighter-rouge {
@@ -54,7 +54,7 @@ a {
   color: #18dede;
 }
 
-#main-wrapper {
+footer,#main-wrapper, #topbar-wrapper {
   background: #262b35;
 }
 
@@ -64,4 +64,39 @@ a {
 
 .post-preview::before {
   background-color: #024d5130;
+}
+
+#sidebar ul li.nav-item a.nav-link:hover {
+  background-color: #323946;
+}
+
+#toc-wrapper ul .is-active-link {
+  color: #18dede;
+}
+
+html[data-mode="dark"] .categories .card-header {
+    background-color: #2b323e !important;
+  }
+
+html[data-mode="dark"] .categories.card {
+  background-color: #323946;
+}
+
+html[data-mode="dark"] #archives li:nth-child(2n+1) {
+    background-image: linear-gradient(to left, #262b35, rgb(55, 68, 136), rgb(63, 81, 115), rgb(37, 79, 96), #262b35);
+  }
+
+#archives a::before {
+  background-color: rgb(2, 196, 163);
+  box-shadow: 0 0 8px 0 #2bce89;
+}
+
+#archives .year::after {
+  background-color: rgb(2, 97, 106);
+  border-color: rgb(7, 255, 220);
+  box-shadow: 0 0 2px 0 #07ffd1;
+}
+
+#archives ul li::before, #archives .year:first-child::before, #archives .year::before {
+  background-color: rgb(51, 67, 68);
 }
