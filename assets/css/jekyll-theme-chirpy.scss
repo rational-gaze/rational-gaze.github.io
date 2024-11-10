@@ -1,5 +1,6 @@
 ---
 ---
+$toc-highlight: #18dede !important;
 
 @import 'main
 {%- if jekyll.environment == 'production' -%}
@@ -10,4 +11,29 @@
 /* append your custom style below */
 .access {
     display: none;
+}
+
+#sidebar .sidebar-bottom {
+  display: none;
+}
+
+.justify-content-between {
+  display: none;
+}
+
+.highlighter-rouge {
+    color: #18dede;
+}
+
+code.highlighter-rouge {
+  background-color: rgba(25, 128, 89, 0.05);
+}
+
+a {
+    color: #67d9d6;
+}
+
+.content a:not(.img-link):hover {
+    color: #18dede !important;
+    border-bottom: 1px solid #18dede;
 }
