@@ -117,3 +117,7 @@ html[data-mode="dark"] .categories.card {
 html[data-mode="dark"] .categories .list-group-item:last-child {
     background-color: #262b35;
   }
+
+#topbar.justify-content-between {
+  display: flex !important;
+}
