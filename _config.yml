@@ -32,7 +32,6 @@ avatar: assets/avatar.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
-excerpt_separator: "<!--excerpt-->"
 comments:
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
