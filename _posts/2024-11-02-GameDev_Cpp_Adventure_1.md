@@ -2,6 +2,7 @@
 title: GameDev C++ Adventure - Pt. 1
 date: 2024-11-02
 categories: [GameDev, Cpp]
+author: rationalgaze
 ---
 
 A delve into the gamedev adventures with `C++`.
