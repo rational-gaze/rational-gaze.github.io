@@ -3,12 +3,8 @@ title: GameDev C++ Adventure - Pt. 1
 date: 2024-11-02
 categories: [GameDev, Cpp]
 author: rationalgaze
-excerpt_separator: <!--excerpt-->
+description: A delve into the gamedev adventures with `C++`.
 ---
-
-A delve into the gamedev adventures with `C++`.
-
-<!--excerpt-->
 
 For a long time, I wanted to create games. I am mainly a casual gamer and am interested more in the underlying systems of games rather than on the actual gameplay. 3 weeks ago, I set myself a task that I will learn some gamedev. I started to closely follow [Chili Tomato's Beginner Tutorial](https://www.youtube.com/playlist?list=PLqCJpWy5FohcehaXlCIt8sVBHBFFRVWsx) with some occasional watching [TheCherno's C++ Playlist](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb).
 
